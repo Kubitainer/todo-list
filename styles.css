@@ -1,0 +1,232 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Establece una fuente elegante desde Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9; /* Fondo suave */
+    color: #333;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* Contenedor para centrar contenido */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabecera del sitio */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #1d3557; /* Color oscuro para contraste */
+    color: #f1faee;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #f1faee; /* Color blanco para el texto principal */
+}
+
+header p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #f1faee; /* También cambié el color del texto de la descripción */
+
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #457b9d; /* Azul suave */
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #f1faee;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 16px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e63946; /* Rojo suave para el hover */
+    transform: scale(1.1); /* Efecto de ampliación en hover */
+}
+
+/* Sección de "Sobre Mí" */
+#about {
+    background-color: #f1faee; /* Fondo suave */
+    padding: 50px 0;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    color: #1d3557;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+/* Sección de Proyectos */
+#projects {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    color: #1d3557;
+    margin-bottom: 30px;
+}
+
+.project {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project h3 {
+    color: #457b9d;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.project p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.project a {
+    font-size: 1rem;
+    color: #1d3557;
+    text-decoration: none;
+    border: 2px solid #1d3557;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #1d3557;
+    color: #fff;
+}
+
+/* Efecto en hover sobre proyectos */
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección de Contacto */
+#contact {
+    background-color: #457b9d; /* Azul suave */
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+#contact a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#contact a:hover {
+    background-color: #e63946; /* Rojo suave para hover */
+    color: #fff;
+}
+
+/* Pie de página */
+footer {
+    background-color: #1d3557;
+    color: #f1faee;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    #about p, .project p {
+        font-size: 1rem;
+    }
+
+    .project {
+        margin: 10px;
+    }
+}
+
