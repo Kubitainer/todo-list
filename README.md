@@ -18,7 +18,7 @@ Este es un proyecto de una **To-Do List** (Lista de Tareas) que te permite gesti
 
 ## Instalación
 
-No es necesario instalar nada en tu computadora para usar este proyecto. Solo necesitas un navegador web que soporte JavaScript.
+No es necesario instalar nada en tu ordenador para usar este proyecto. Solo necesitas un navegador web que soporte JavaScript.
 
 Si deseas ejecutar este proyecto localmente, sigue estos pasos:
 
